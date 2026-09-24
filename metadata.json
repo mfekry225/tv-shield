@@ -1,0 +1,6 @@
+{
+  "name": "TV Shield",
+  "description": "A professional system optimization and manager utility for Android TV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
