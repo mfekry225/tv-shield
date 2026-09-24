@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- Background Banner Gradient -->
+    <path
+        android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="320"
+                android:endY="180"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF0F172A" android:offset="0" />
+                <item android:color="#FF1E293B" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Side Decoration (Glowing Arch) -->
+    <path
+        android:pathData="M320,0 Q240,90 320,180"
+        android:strokeWidth="40"
+        android:strokeAlpha="0.1"
+        android:strokeColor="#FF00E676" />
+
+    <!-- Logo on the left -->
+    <!-- (Simplified version of the foreground shield) -->
+    <path
+        android:pathData="M60,60 L45,66 Q44,85 60,98 Q76,85 75,66 L60,60 Z"
+        android:strokeWidth="3">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="75"
+                android:endY="98"
+                android:startX="45"
+                android:startY="60"
+                android:type="linear">
+                <item android:color="#FF00E676" android:offset="0" />
+                <item android:color="#FF00B0FF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Text: TV SHIELD -->
+    <!-- Note: Vector text is hard without specific path data,
+         usually we'd use a PNG for the logo text, but we'll use basic shapes to simulate a "Modern" look -->
+    <path
+        android:pathData="M100,75 L100,95 M115,75 L115,95 M100,75 L120,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" /> <!-- Simplified 'T' 'V' symbols -->
+
+</vector>

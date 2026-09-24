@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Glow Circle (Subtle) -->
+    <path
+        android:pathData="M54,54m-42,0a42,42 0,1 1,84 0a42,42 0,1 1,-84 0"
+        android:strokeWidth="0.5"
+        android:strokeColor="#4400E676" />
+
+    <!-- Futuristic Shield Body -->
+    <path
+        android:pathData="M54,24 L34,32 C34,32 32,58 54,74 C76,58 74,32 74,32 L54,24 Z"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="74"
+                android:endY="74"
+                android:startX="34"
+                android:startY="24"
+                android:type="linear">
+                <item android:color="#FF00E676" android:offset="0" />
+                <item android:color="#FF00B0FF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Speed Lightning / Checkmark inside -->
+    <path
+        android:pathData="M48,48 L52,56 L64,42"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Tech Lines Decor -->
+    <path
+        android:pathData="M30,50 L20,50 M78,50 L88,50 M54,80 L54,90"
+        android:strokeColor="#5500B0FF"
+        android:strokeWidth="1"
+        android:strokeLineCap="round" />
+
+</vector>
